@@ -1,0 +1,19 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap ;
+    width: 1056px;
+    margin: 0 auto;
+    border: 4px dashed red;
+    border-radius: 4px;
+}
+div.grid img{
+    margin: 4px;
+    height: 256px;
+    width: 256px;
+    border-radius: 4px;
+    transition: all 300ms ease-in-out;
+}
+div.grid img:hover{
+    border-radius: 35px;
+    cursor: pointer;
+}
